@@ -14,6 +14,7 @@
 		B86638CE1BD7D26F00F73F62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86638CC1BD7D26F00F73F62 /* LaunchScreen.storyboard */; };
 		B86638D91BD7D26F00F73F62 /* TriangleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86638D81BD7D26F00F73F62 /* TriangleTests.swift */; };
 		B86638E41BD7D26F00F73F62 /* TriangleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86638E31BD7D26F00F73F62 /* TriangleUITests.swift */; };
+		B86638F21BD7D96200F73F62 /* FactorialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86638F11BD7D96200F73F62 /* FactorialVC.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B86638DF1BD7D26F00F73F62 /* TriangleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriangleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B86638E31BD7D26F00F73F62 /* TriangleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleUITests.swift; sourceTree = "<group>"; };
 		B86638E51BD7D26F00F73F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B86638F11BD7D96200F73F62 /* FactorialVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactorialVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B86638CA1BD7D26F00F73F62 /* Assets.xcassets */,
 				B86638CC1BD7D26F00F73F62 /* LaunchScreen.storyboard */,
 				B86638CF1BD7D26F00F73F62 /* Info.plist */,
+				B86638F11BD7D96200F73F62 /* FactorialVC.swift */,
 			);
 			path = Triangle;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B86638C61BD7D26F00F73F62 /* ViewController.swift in Sources */,
+				B86638F21BD7D96200F73F62 /* FactorialVC.swift in Sources */,
 				B86638C41BD7D26F00F73F62 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
